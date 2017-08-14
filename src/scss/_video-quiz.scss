@@ -1,0 +1,33 @@
+.video-quiz {
+  margin: 50px auto;
+  width: 760px;
+
+  .dropdown-menu {
+    text-align: right;
+
+    .menu-item {
+      display: inline-block;
+    }
+
+    .points {
+      display: block;
+      margin: 10px 0px 5px 0px;
+      font-weight: bold;
+    }
+
+    .arrow-down {
+      display:inline-block;
+      border-top: 6px solid transparent;
+      border-right: 6px solid black;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      margin: 0px 0px 3px 2px;
+    }
+  }
+  
+  iframe {
+    float: left;
+    width: 380px;
+    height: 250px;
+  }
+}

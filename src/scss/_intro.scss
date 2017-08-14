@@ -1,0 +1,27 @@
+.intro {
+  margin: 50px auto;
+  width: 760px;
+  
+  .title-container span, .section-points, .due-container span, .learning-container span, .desc-container span {
+    font-weight: bold;
+  }
+  
+  .title-container {
+    margin-right: 50px;
+    border-right: 1px solid $light-gray;
+    padding: 25px 100px 15px 0px;
+  }
+
+  .due-container {
+    margin-left: 50px;
+    border-left: 1px solid $light-gray;
+    padding: 25px 0px 15px 50px;
+  }
+
+  .learning-container, .desc-container {
+    border-top: 1px solid $light-gray;
+    margin-top: 15px;
+    padding-top: 10px;
+    line-height: 20px;
+  }
+}

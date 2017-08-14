@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the best way to feel more physically comfortable when delivering a speech?",
+    "questionOrder": 1,
+    "timeSequence": "0:12",
+    "answers": ["Take a course about self esteem", "Learn mediation skills", "Learn specific skills on what to do with your body", "Take a course about ignoring the audience"],
+    "correctAnswer": "Learn specific skills on what to do with your body",
+    "points": 3
+  },
+  {
+    "question": "Why is it important to have good posture?",
+    "questionOrder": 2,
+    "timeSequence": "0:52",
+    "answers": ["More impressive looking", "You avoid stomach cramping", "Easier to see the back of the room", "Keeps the body open for other"],
+    "correctAnswer": "Keeps the body open for other",
+    "points": 3
+  },
+  {
+    "question": "How does standing with your feet shoulder width apart help you have a better delivery?",
+    "questionOrder": 3,
+    "timeSequence": "1:37",
+    "answers": ["Eliminate distracting movement", "You avoid falling over", "You can see the back of the room better", "You can breathe better"],
+    "correctAnswer": "Eliminate distracting movement",
+    "points": 3
+  },
+  {
+    "question": "Why are gestures an important delivery skill to learn?",
+    "questionOrder": 4,
+    "timeSequence": "2:15",
+    "answers": ["Helps the audience from seeing how nervous you might be", "Help communicate the message", "Teaches you that fewer gestures make a better the speech", "Teaches you that more gestures make a better speech"],
+    "correctAnswer": "Teaches you that more gestures make a better speech",
+    "points": 3
+  },
+  {
+    "question": "What is the outcome of learning correct posture, body movement, and gestures?",
+    "questionOrder": 5,
+    "timeSequence": "2:43",
+    "answers": ["Make you look like you have prepared for your speech", "Make you look powerful", "Helps you avoid stomach cramping", "Make you look and feel more comfortable"],
+    "correctAnswer": "Make you look and feel more comfortable",
+    "points": 3
+  }
+]

@@ -1,0 +1,50 @@
+.questions-form {
+  button {
+    position: absolute;
+  }
+
+  .question-box {
+    width: 380px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid $light-gray;
+
+    .question-title {
+      display: table;
+      height: 50px;
+      width: 100%;
+      background: lighten($light-gray, 10%);
+
+      p {
+        display: table-cell;
+        vertical-align: middle;
+        line-height: 16px;
+        padding-left: 20px;
+      }
+    }
+
+    .question-label {
+      display: inline-block;
+      margin: 10px 0px 15px 20px;
+    }
+
+    .answer-box {
+      position: relative;
+      height: 161px;
+
+      .answer {
+        margin: 0px 0px 5px 20px;
+
+        input {
+          margin-right: 5px;
+        }
+      }
+    }
+
+    button {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+    }
+  }
+}
