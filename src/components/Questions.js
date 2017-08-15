@@ -44,7 +44,7 @@ export default class Questions extends Component {
               );
             })}
 
-            {this.state.resumeButton ? <button onClick={this.hideButton} name="resume-button" type="button" value="Resume Quiz">Resume</button> : null}
+            {this.state.resumeButton ? <button onClick={this.hideButton} className="resume-button" name="resume-button" type="button" value="Resume Quiz">Resume</button> : null}
           </div>
         </div>
       );
@@ -54,7 +54,7 @@ export default class Questions extends Component {
       <form className='questions-form'>
         {questionsBox}
 
-        <button name="submit-button" type="submit" value="Submit Quiz">Submit Quiz</button>
+        <button className="submit-button" name="submit-button" type="submit" value="Submit Quiz">Submit Quiz</button>
       </form>
     )
   }

@@ -1,7 +1,4 @@
 .questions-form {
-  button {
-    position: absolute;
-  }
 
   .question-box {
     width: 380px;
@@ -41,10 +38,10 @@
       }
     }
 
-    button {
-      position: absolute;
-      right: 20px;
-      bottom: 20px;
+    .resume-button {
+      position: absolute !important;
+      right: 20px !important;
+      bottom: 20px !important;
     }
   }
 }

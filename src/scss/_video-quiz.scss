@@ -7,6 +7,7 @@
 
     .question-toggle {
       display: inline-block;
+      cursor: pointer;
       background: lighten($dark-gray, 30%);
       padding: 8px;
       border-radius: 3px;
