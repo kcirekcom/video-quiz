@@ -1,8 +1,8 @@
-In the project directory, you can run:
+After cloning this repo, you can run:
 
 ### `npm i`
 
-To install all dependencies.
+In the project directory to install all dependencies.
 
 And then:
 

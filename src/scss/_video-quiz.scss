@@ -5,23 +5,30 @@
   .dropdown-menu {
     text-align: right;
 
-    .menu-item {
+    .question-toggle {
       display: inline-block;
+      background: lighten($dark-gray, 30%);
+      padding: 8px;
+      border-radius: 3px;
+
+      .menu-item {
+        display: inline-block;
+      }
+
+      .arrow-down {
+        display:inline-block;
+        border-top: 6px solid transparent;
+        border-right: 6px solid black;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin: 0px 0px 3px 5px;
+      }
     }
 
     .points {
       display: block;
       margin: 10px 0px 5px 0px;
       font-weight: bold;
-    }
-
-    .arrow-down {
-      display:inline-block;
-      border-top: 6px solid transparent;
-      border-right: 6px solid black;
-      transform: rotate(45deg);
-      -webkit-transform: rotate(45deg);
-      margin: 0px 0px 3px 2px;
     }
   }
   
